@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #000;
+  min-height: 100vh;
+}
+
+.toggle {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #ddd;
+}
+
+.contenedor {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.input {
+  padding: 8px;
+  margin: 5px;
+  width: 80%;
+}
+
+.btn {
+  padding: 10px 25px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.resp {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.firma {
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+  color: #666;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark .contenedor {
+  background-color: #1e1e1e;
+}
+
+body.dark .btn {
+  background-color: #6abf69;
+}
+
+body.dark .toggle {
+  background-color: #333;
+  color: white;
+}
+
+body.dark .firma {
+  color: #aaa;
+}

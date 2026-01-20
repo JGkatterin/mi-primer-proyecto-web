@@ -1,64 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+  <meta charset="UTF-8">
   <title>Acceso al sistema</title>
-
-  <style>
-    body {
-      font-family: Arial;
-      background-color: #f5f5f5;
-      text-align: center;
-      padding-top: 50px;
-    }
-
-    input {
-      padding: 8px;
-      margin: 5px;
-    }
-
-    button {
-      padding: 10px 20px;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-
-    #resultado {
-      margin-top: 20px;
-      font-size: 18px;
-      font-weight: bold;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <h1>Acceso al sistema</h1>
+  <button class="toggle" onclick="cambiarTema()">🌙 / ☀️</button>
 
-  <p>Edad:</p>
-  <input type="number" id="edad">
+  <div class="contenedor"> 
+    <h1>Acceso al sistema</h1>
 
-  <p>¿Tiene boleto?</p>
-  <input type="checkbox" id="boleto">
+    <p>Edad:</p>
+    <input class="input" type="number" id="edad">
 
-  <br><br>
-  <button onclick="verificarAcceso()">Verificar</button>
+    <p>¿Tiene boleto?</p>
+    <input type="checkbox" id="boleto">
 
-  <p id="resultado"></p>
+    <br><br>
 
-  <script>
-    function verificarAcceso() {
-      let edad = document.getElementById("edad").value;
-      let tieneBoleto = document.getElementById("boleto").checked;
+    <button class="btn" onclick="verificarAcceso()">Verificar</button>
 
-      if (edad >= 18 && tieneBoleto) {
-        document.getElementById("resultado").textContent = "✅ Acceso permitido";
-      } else {
-        document.getElementById("resultado").textContent = "❌ Acceso denegado";
-      }
-    }
-  </script>
+    <div class="resp"> 
+      <p id="resultado"></p>
+    </div>
+  </div>
 
+  <footer class="firma">
+    © 2026 — Hecho por ✨🎃🦝Kami-Mika🦝🎃✨
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
