@@ -1,8 +1,21 @@
-# Mi primer proyecto web
+# Control de Acceso Web
+Aplicación web sencilla que valida el acceso de usuarios según su edad y si cuentan con un boleto.
 
-Este es mi primer proyecto web donde practico:
-HTML
-CSS
-JavaScript
+## Funcionalidades
+- Validación de acceso de usuarios
+- Modo claro y modo oscuro
+- Diseño limpio y centrado
+- Interfaz sencilla y fácil de usar
 
-Forma parte de mi proceso de aprendizaje en TICs.
+## Tecnologías utilizadas
+- HTML5
+- CSS3
+- JavaScript
+
+## Vista previa
+Puedes ver el proyecto funcionando aquí:  
+https://jgkatterin.github.io/mi-primer-proyecto-web/
+
+## Autora
+Desarrollado por ✨🎃🦝Kami-Mika🦝🎃✨ GitHub: https://github.com/JGkatterin
+
