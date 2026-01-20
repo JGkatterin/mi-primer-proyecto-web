@@ -14,7 +14,7 @@ Aplicación web sencilla que valida el acceso de usuarios según su edad y si cu
 
 ## Vista previa
 Puedes ver el proyecto funcionando aquí:  
-https://jgkatterin.github.io/mi-primer-proyecto-web/
+https://jgkatterin.github.io/Control-de-acceso-web/
 
 ## Autora
 Desarrollado por ✨🎃🦝Kami-Mika🦝🎃✨ GitHub: https://github.com/JGkatterin
